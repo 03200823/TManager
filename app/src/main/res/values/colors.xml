@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App 样式中引用的颜色 -->
+    <color name="common_primary_color">@color/white</color>
+    <color name="common_primary_dark_color">@color/white</color>
+    <color name="common_accent_color">@color/FE4815</color>
+    <color name="common_window_background_color">#F4F4F4</color>
+    <color name="common_text_color">#333333</color>
+    <color name="common_text_hint_color">@color/panda</color>
+
+    <!-- 按钮按压时的颜色 -->
+    <color name="common_button_pressed_color">#AA5A8DDF</color>
+    <!-- 按钮禁用时的颜色 -->
+    <color name="common_button_disable_color">#BBBBBB</color>
+    <!-- 分割线的颜色 -->
+    <color name="common_line_color">#ECECEC</color>
+    <!-- 矢量图标的颜色 -->
+    <color name="common_icon_color">#7C7C7C</color>
+
+    <!-- 对话框确认按钮的文本颜色 -->
+    <color name="common_confirm_text_color">#007AFF</color>
+    <!-- 对话框取消按钮的文本颜色 -->
+    <color name="common_cancel_text_color">#F44336</color>
+
+
+    <color name="FE4815">#FE4815</color>
+    <color name="F30000">#F30000</color>
+    <color name="F8F8F8">#F8F8F8</color>
+    <color name="C00A850">#00A850</color>
+    <color name="C999999">#999999</color>
+    <color name="C666666">#666666</color>
+
+</resources>

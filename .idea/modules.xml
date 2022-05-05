@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Frame.iml" filepath="$PROJECT_DIR$/.idea/Frame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Frame.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Frame.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/Frame.library.iml" filepath="$PROJECT_DIR$/.idea/modules/library/Frame.library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/base/Frame.library.base.iml" filepath="$PROJECT_DIR$/.idea/modules/library/base/Frame.library.base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/umeng/Frame.library.umeng.iml" filepath="$PROJECT_DIR$/.idea/modules/library/umeng/Frame.library.umeng.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/widget/Frame.library.widget.iml" filepath="$PROJECT_DIR$/.idea/modules/library/widget/Frame.library.widget.iml" />
+    </modules>
+  </component>
+</project>

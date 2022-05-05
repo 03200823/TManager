@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.students.app.ui.fragment.FindFragment">
+
+    <com.hjq.bar.TitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leftIcon="@null"
+        app:title="通话记录"
+        android:layout_marginBottom="@dimen/dp_10"/>
+
+    <com.students.app.widget.StatusLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sta_layout">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/contacts"
+            android:background="@drawable/shape_ff_r10_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/dp_5"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:itemCount="3"
+            tools:listitem="@layout/item_contact" />
+    </com.students.app.widget.StatusLayout>
+
+</LinearLayout>

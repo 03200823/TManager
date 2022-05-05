@@ -1,0 +1,690 @@
+[
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_tips_error_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\tips_error_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_activity_crash.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\activity_crash.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_search_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\search_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_login_wechat_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\login_wechat_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_dialog_message.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\dialog_message.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_checkbox_selector.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\checkbox_selector.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_item_share.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\item_share.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_safe_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\safe_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_dialog_address.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\dialog_address.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_video_brightness_medium_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\video_brightness_medium_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_transparent_selector.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\transparent_selector.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_share_wechat_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\share_wechat_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_delete_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\delete_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_dialog_input_bg.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\dialog_input_bg.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_item_contact.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\item_contact.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_guide_indicator_selected.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\guide_indicator_selected.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_arrows_top_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\arrows_top_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_home_me_selector.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\home_me_selector.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_guide_indicator_unselected.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\guide_indicator_unselected.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_home_found_selector.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\home_found_selector.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_avatar_placeholder_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\avatar_placeholder_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_ic_sms.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\ic_sms.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_compound_normal_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\compound_normal_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_dialog_dial.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\dialog_dial.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_white_selector.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\white_selector.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_video_brightness_high_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\video_brightness_high_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_shape_ff_r10_bg.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\shape_ff_r10_bg.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_item_menu.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\item_menu.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_activity_contact_details.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\activity_contact_details.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_icon_login_jia_shu.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\icon_login_jia_shu.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_share_qq_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\share_qq_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\anim_left_in_activity.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\anim\\left_in_activity.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_radiobutton_disable_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\radiobutton_disable_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_item_reccord_call.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\item_reccord_call.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_home_message_selector.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\home_message_selector.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_home_navigation_item.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\home_navigation_item.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_src_home_item_tou_xiang.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\src_home_item_tou_xiang.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\anim_right_in_activity.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\anim\\right_in_activity.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\raw_province.json.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\raw\\province.json"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_status_empty_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\status_empty_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_countdown_selector.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\countdown_selector.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_info_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\info_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_radiobutton_checked_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\radiobutton_checked_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_icon_login_pswd.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\icon_login_pswd.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_video_schedule_rewind_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\video_schedule_rewind_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_video_progress_ball_bg.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\video_progress_ball_bg.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_item_album.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\item_album.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_video_lock_open_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\video_lock_open_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_video_select_item.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\video_select_item.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_contact_fragment.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\contact_fragment.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_video_brightness_low_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\video_brightness_low_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_dialog_tips.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\dialog_tips.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_video_volume_high_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\video_volume_high_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\xml_file_paths.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_icon_login_we_chat.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\icon_login_we_chat.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_share_link_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\share_link_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_home_search_bar_transparent_bg.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\home_search_bar_transparent_bg.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_flash_logo.webp.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_flash_logo.webp"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_status_order_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\status_order_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_item_pay_password_normal.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\item_pay_password_normal.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_succeed_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\succeed_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\anim_shake_anim.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\anim\\shake_anim.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_dialog_menu.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\dialog_menu.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_arrows_bottom_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\arrows_bottom_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_activity_browser.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\activity_browser.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_ic_hang_up.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\ic_hang_up.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_tips_warning_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\tips_warning_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_ic_un_answer.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\ic_un_answer.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_home_home_off_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\home_home_off_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_videocam_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\videocam_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_add_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\add_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_dialog_time.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\dialog_time.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_item_number.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\item_number.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_video_schedule_forward_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\video_schedule_forward_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_activity_video_select.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\activity_video_select.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_icon_login_phone.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\icon_login_phone.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_button_circle_selector.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\button_circle_selector.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_home_me_on_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\home_me_on_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_item_pay_password_delete_item.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\item_pay_password_delete_item.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_mine_fragment.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\mine_fragment.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_ic_info.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\ic_info.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_home_found_off_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\home_found_off_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_dialog_share.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\dialog_share.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_home_me_off_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\home_me_off_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_video_volume_medium_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\video_volume_medium_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_share_qzone_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\share_qzone_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_home_home_selector.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\home_home_selector.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_widget_status_layout.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\widget_status_layout.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_close_icon.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\close_icon.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_checkbox_checked_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\checkbox_checked_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\raw_progress.json.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\raw\\progress.json"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_home_found_on_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\home_found_on_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_image_loading_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\image_loading_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_home_home_on_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\home_home_on_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_tips_finish_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\tips_finish_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_video_progress_bg.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\video_progress_bg.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_icon_login_mi_ma.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\icon_login_mi_ma.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_status_nerwork_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\status_nerwork_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_roll_accent_bg.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\roll_accent_bg.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_dialog_input.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\dialog_input.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_activity_sms_details.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\activity_sms_details.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_dialog_dial_tips.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\dialog_dial_tips.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_dialog_date_time.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\dialog_date_time.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_item_pay_password_empty.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\item_pay_password_empty.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\anim_left_out_activity.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\anim\\left_out_activity.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\raw_welcome.json.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\raw\\welcome.json"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_update_app_top_bg.png.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable-xxhdpi\\update_app_top_bg.png"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_dialog_copy.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\dialog_copy.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_phone_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\phone_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_dialog_select.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\dialog_select.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_dialog_message_confirm.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\dialog_message_confirm.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_find_fragment.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\find_fragment.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_dialog_pay_password.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\dialog_pay_password.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_item_select.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\item_select.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_ic_call.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\ic_call.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_share_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\share_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_video_volume_mute_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\video_volume_mute_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_call_logo.png.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\mipmap-xxhdpi\\call_logo.png"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_video_lock_close_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\video_lock_close_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_countdown_color_selector.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\countdown_color_selector.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_arrows_right_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\arrows_right_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_btn_press_anim.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\btn_press_anim.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_activity_video_play.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\activity_video_play.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_home_search_bar_gray_bg.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\home_search_bar_gray_bg.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_dialog_wait.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\dialog_wait.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_fragment_browser.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\fragment_browser.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_message_fragment.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\message_fragment.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_activity_copy.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\activity_copy.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_progress_gradient_bg.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\progress_gradient_bg.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\anim_right_out_activity.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\anim\\right_out_activity.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_dialog_item_picker.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\dialog_item_picker.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_dialog_ui.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\dialog_ui.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_button_rect_selector.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\button_rect_selector.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_video_volume_low_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\video_volume_low_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_home_message_on_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\home_message_on_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_widget_player_view.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\widget_player_view.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_icon_logi_we_xin.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\icon_logi_we_xin.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_checkbox_disable_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\checkbox_disable_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_login_qq_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\login_qq_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_logo_big_ic.webp.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable-xxhdpi\\logo_big_ic.webp"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_home_message_off_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\home_message_off_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_ic_incoming.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\ic_incoming.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_camera_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\camera_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_dialog_date.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\dialog_date.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_shape_ff_top_r10_bg.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\shape_ff_top_r10_bg.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_fragment_copy.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\fragment_copy.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\xml_network_security_config.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_dialog_update.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\dialog_update.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_button_radius_selector.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\button_radius_selector.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\anim_shake_interpolator.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\anim\\shake_interpolator.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_share_moment_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\share_moment_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_reboot_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\reboot_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\raw_loading.json.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\raw\\loading.json"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_popup_copy.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\popup_copy.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_status_error_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\status_error_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_home_fragment.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\home_fragment.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_radiobutton_selector.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\radiobutton_selector.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_image_preview_indicator.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\image_preview_indicator.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_image_error_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\image_error_ic.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_button_circle_yellow_selector.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\button_circle_yellow_selector.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\layout_dialog_custom.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\layout\\dialog_custom.xml"
+    },
+    {
+        "merged": "E:\\TelephoneManager\\Frame\\build\\app\\intermediates\\res\\merged\\debug\\drawable_arrows_left_ic.xml.flat",
+        "source": "E:\\TelephoneManager\\Frame\\app\\src\\main\\res\\drawable\\arrows_left_ic.xml"
+    }
+]

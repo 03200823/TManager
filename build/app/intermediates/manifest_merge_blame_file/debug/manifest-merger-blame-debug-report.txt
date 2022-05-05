@@ -1,0 +1,702 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dwbs.app.debug"
+4    android:versionCode="10"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml
+10
+11    <queries package="com.dwbs.app.debug" >
+11-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:99:5-135:15
+11-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:14:14-40
+12
+13        <!-- 拍照意图：MediaStore.ACTION_IMAGE_CAPTURE -->
+14        <intent>
+14-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:102:9-104:18
+15            <action android:name="android.media.action.IMAGE_CAPTURE" />
+15-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:103:13-73
+15-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:103:21-70
+16        </intent>
+17
+18        <!-- 拍摄意图：MediaStore.ACTION_VIDEO_CAPTURE -->
+19        <intent>
+19-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:107:9-109:18
+20            <action android:name="android.media.action.VIDEO_CAPTURE" />
+20-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:108:13-73
+20-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:108:21-70
+21        </intent>
+22
+23        <!-- 图片裁剪意图 -->
+24        <intent>
+24-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:112:9-114:18
+25            <action android:name="com.android.camera.action.CROP" />
+25-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:113:13-69
+25-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:113:21-66
+26        </intent>
+27
+28        <!-- 打电话意图：Intent.ACTION_DIAL -->
+29        <intent>
+29-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:117:9-119:18
+30            <action android:name="android.intent.action.DIAL" />
+30-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:118:13-65
+30-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:118:21-62
+31        </intent>
+32
+33        <!-- 调起分享意图：Intent.ACTION_SEND -->
+34        <intent>
+34-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:122:9-124:18
+35            <action android:name="android.intent.action.SEND" />
+35-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:123:13-65
+35-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:123:21-62
+36        </intent>
+37
+38        <!-- 调起其他页面意图：Intent.ACTION_VIEW -->
+39        <intent>
+39-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:127:9-129:18
+40            <action android:name="android.intent.action.VIEW" />
+40-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:128:13-65
+40-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:128:21-62
+41        </intent>
+42
+43        <!-- 调起系统文件选择器：Intent.ACTION_GET_CONTENT -->
+44        <intent>
+44-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:132:9-134:18
+45            <action android:name="android.intent.action.GET_CONTENT" />
+45-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:133:13-72
+45-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:133:21-69
+46        </intent>
+47        <!-- 手机 QQ 的包名 -->
+48        <package android:name="com.tencent.mobileqq" /> <!-- 微信的包名 -->
+48-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:28:9-56
+48-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:28:18-53
+49        <package android:name="com.tencent.mm" />
+49-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:30:9-50
+49-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:30:18-47
+50
+51        <intent>
+51-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:18:9-20:18
+52            <action android:name="android.media.action.ACTION_VIDEO_CAPTURE" />
+52-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:19:13-80
+52-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:19:21-77
+53        </intent>
+54    </queries>
+55
+56    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 外部存储 -->
+56-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:136:5-79
+56-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:136:22-76
+57    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+57-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:137:5-76
+57-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:137:22-73
+58    <uses-permission android:name="android.permission.INTERNET" /> <!-- 拍照权限 -->
+58-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:138:5-67
+58-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:138:22-64
+59    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- 安装权限 -->
+59-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:139:5-80
+59-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:139:22-77
+60    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 定位权限（用于 WebView 定位） -->
+60-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:140:5-142:40
+60-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:141:9-65
+61    <uses-permission android:name="android.permission.CAMERA" />
+61-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:143:5-65
+61-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:143:22-62
+62    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /> <!-- Android 11 软件包可见性适配：https://www.jianshu.com/p/d1ccd425c4ce -->
+62-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:144:5-83
+62-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:144:22-80
+63    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+63-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:145:5-79
+63-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:145:22-76
+64    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+64-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:147:5-81
+64-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:147:22-78
+65    <uses-permission android:name="android.permission.READ_CONTACTS" />
+65-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:149:5-72
+65-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:149:22-69
+66    <!-- 写联系人权限 -->
+67    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+67-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:151:5-73
+67-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:151:22-70
+68    <!-- 拨号权限 -->
+69    <uses-permission android:name="android.permission.CALL_PHONE" />
+69-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:153:5-69
+69-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:153:22-66
+70    <!-- 读短信权限 -->
+71    <uses-permission android:name="android.permission.READ_SMS" />
+71-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:155:5-67
+71-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:155:22-64
+72    <uses-permission android:name="android.permission.READ_CONTACTS" />
+72-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:149:5-72
+72-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:149:22-69
+73    <!-- 写联系人权限 -->
+74    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+74-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:151:5-73
+74-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:151:22-70
+75    <!-- 拨号权限 -->
+76    <uses-permission android:name="android.permission.CALL_PHONE" />
+76-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:153:5-69
+76-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:153:22-66
+77    <!-- 读短信权限 -->
+78    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+78-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:162:5-72
+78-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:162:22-69
+79    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+79-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:163:5-70
+79-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:163:22-68
+80
+81    <!-- 友盟统计 -->
+82    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- To allow starting foreground services on Android P+ - https://developer.android.com/preview/behavior-changes#fg-svc -->
+82-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-75
+82-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:18:22-72
+83    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+83-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:26:5-77
+83-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:26:22-74
+84    <uses-permission android:name="android.permission.FLASHLIGHT" />
+84-->[com.github.bingoogolapple.BGAQRCode-Android:qrcodecore:1.3.8] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\124d842b2b91aa5f273967640eda11ca\jetified-qrcodecore-1.3.8\AndroidManifest.xml:10:5-69
+84-->[com.github.bingoogolapple.BGAQRCode-Android:qrcodecore:1.3.8] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\124d842b2b91aa5f273967640eda11ca\jetified-qrcodecore-1.3.8\AndroidManifest.xml:10:22-66
+85
+86    <uses-feature
+86-->[com.github.bingoogolapple.BGAQRCode-Android:qrcodecore:1.3.8] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\124d842b2b91aa5f273967640eda11ca\jetified-qrcodecore-1.3.8\AndroidManifest.xml:12:5-14:36
+87        android:name="android.hardware.camera.autofocus"
+87-->[com.github.bingoogolapple.BGAQRCode-Android:qrcodecore:1.3.8] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\124d842b2b91aa5f273967640eda11ca\jetified-qrcodecore-1.3.8\AndroidManifest.xml:13:9-57
+88        android:required="false" />
+88-->[com.github.bingoogolapple.BGAQRCode-Android:qrcodecore:1.3.8] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\124d842b2b91aa5f273967640eda11ca\jetified-qrcodecore-1.3.8\AndroidManifest.xml:14:9-33
+89    <uses-feature
+89-->[com.github.bingoogolapple.BGAQRCode-Android:qrcodecore:1.3.8] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\124d842b2b91aa5f273967640eda11ca\jetified-qrcodecore-1.3.8\AndroidManifest.xml:15:5-17:36
+90        android:name="android.hardware.camera.flash"
+90-->[com.github.bingoogolapple.BGAQRCode-Android:qrcodecore:1.3.8] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\124d842b2b91aa5f273967640eda11ca\jetified-qrcodecore-1.3.8\AndroidManifest.xml:16:9-53
+91        android:required="false" /> <!-- 网络相关 -->
+91-->[com.github.bingoogolapple.BGAQRCode-Android:qrcodecore:1.3.8] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\124d842b2b91aa5f273967640eda11ca\jetified-qrcodecore-1.3.8\AndroidManifest.xml:17:9-33
+92    <application
+93        android:name="com.students.app.app.AppApplication"
+93-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:7:9-43
+94        android:allowBackup="false"
+94-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:8:9-36
+95        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+95-->[androidx.core:core:1.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cc1bc1189a305040b44c2acc85649dd4\core-1.5.0\AndroidManifest.xml:24:18-86
+96        android:debuggable="true"
+97        android:icon="@mipmap/call_logo"
+97-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:9:9-41
+98        android:label="@string/app_name"
+98-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:10:9-36
+99        android:networkSecurityConfig="@xml/network_security_config"
+99-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:11:9-69
+100        android:requestLegacyExternalStorage="true"
+100-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:12:9-52
+101        android:resizeableActivity="true"
+101-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:13:9-42
+102        android:roundIcon="@mipmap/call_logo"
+102-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:14:9-46
+103        android:supportsRtl="false"
+103-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:15:9-36
+104        android:theme="@style/AppTheme"
+104-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:16:9-40
+105        android:usesCleartextTraffic="true" >
+105-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:17:9-44
+106        <activity
+106-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:21:9-23:40
+107            android:name="com.students.app.ui.activity.MainActivity"
+107-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:22:13-53
+108            android:exported="false" />
+108-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:23:13-37
+109        <!-- 表示当前已经适配了分区存储 -->
+110        <activity
+110-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:25:9-38:20
+111            android:name="com.students.app.ui.activity.SplashActivity"
+111-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:26:13-55
+112            android:launchMode="singleTop"
+112-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:27:13-43
+113            android:screenOrientation="portrait"
+113-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:28:13-49
+114            android:theme="@style/SplashTheme" >
+114-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:29:13-47
+115
+116            <!-- 程序入口 -->
+117            <intent-filter>
+117-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:32:13-37:29
+118                <action android:name="android.intent.action.MAIN" />
+118-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:33:17-69
+118-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:33:25-66
+119                <action android:name="android.intent.action.VIEW" />
+119-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:128:13-65
+119-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:128:21-62
+120
+121                <category android:name="android.intent.category.LAUNCHER" />
+121-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:36:17-77
+121-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:36:27-74
+122            </intent-filter>
+123        </activity> <!-- 适配 Android 7.0 文件意图 -->
+124        <activity
+124-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:39:9-43:55
+125            android:name="com.students.app.ui.activity.HomeActivity"
+125-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:40:13-53
+126            android:launchMode="singleTask"
+126-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:41:13-44
+127            android:screenOrientation="portrait"
+127-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:42:13-49
+128            android:windowSoftInputMode="adjustPan" /> <!-- 闪屏页 -->
+128-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:43:13-52
+129        <activity
+129-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:44:9-48:53
+130            android:name="com.students.app.ui.activity.CrashActivity"
+130-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:45:13-54
+131            android:launchMode="singleTop"
+131-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:46:13-43
+132            android:process=":crash"
+132-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:47:13-37
+133            android:screenOrientation="landscape" /> <!-- 首页 -->
+133-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:48:13-50
+134        <activity
+134-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:49:9-52:42
+135            android:name="com.students.app.ui.activity.RestartActivity"
+135-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:50:13-56
+136            android:launchMode="singleTop"
+136-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:51:13-43
+137            android:process=":restart" /> <!-- 崩溃展示（必须在独立进程） -->
+137-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:52:13-39
+138        <activity
+138-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:53:9-57:52
+139            android:name="com.students.app.ui.activity.BrowserActivity"
+139-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:54:13-56
+140            android:label="@string/网页加载中"
+140-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:55:13-42
+141            android:launchMode="singleTop"
+141-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:56:13-43
+142            android:screenOrientation="portrait" /> <!-- 重启应用（必须在独立进程） -->
+142-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:57:13-49
+143        <activity
+143-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:58:9-61:54
+144            android:name="com.students.app.ui.activity.VideoPlayActivity"
+144-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:59:13-58
+145            android:launchMode="singleTop"
+145-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:60:13-43
+146            android:theme="@style/FullScreenTheme" /> <!-- 忘记密码 -->
+146-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:61:13-51
+147        <!-- 重置密码 -->
+148        <!-- 更换手机 -->
+149        <!-- 网页浏览 -->
+150        <activity android:name="com.students.app.ui.activity.ContactDetailsActivity" />
+150-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:65:9-71
+150-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:65:19-69
+151        <activity
+151-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:66:9-70:54
+152            android:name="com.students.app.ui.activity.VideoPlayActivity$Portrait"
+152-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:67:13-67
+153            android:launchMode="singleTop"
+153-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:68:13-43
+154            android:screenOrientation="portrait"
+154-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:69:13-49
+155            android:theme="@style/FullScreenTheme" /> <!-- 播放视频（自适应方向） -->
+155-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:70:13-51
+156        <activity
+156-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:71:9-75:54
+157            android:name="com.students.app.ui.activity.VideoPlayActivity$Landscape"
+157-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:72:13-68
+158            android:launchMode="singleTop"
+158-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:73:13-43
+159            android:screenOrientation="landscape"
+159-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:74:13-50
+160            android:theme="@style/FullScreenTheme" /> <!-- 播放视频（竖屏方向） -->
+160-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:75:13-51
+161        <activity
+161-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:76:9-79:52
+162            android:name="com.students.app.ui.activity.VideoSelectActivity"
+162-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:77:13-60
+163            android:launchMode="singleTop"
+163-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:78:13-43
+164            android:screenOrientation="portrait" /> <!-- 播放视频（横屏方向） -->
+164-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:79:13-49
+165        <activity
+165-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:80:9-84:75
+166            android:name="com.students.app.wxapi.WXEntryActivity"
+166-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:81:13-50
+167            android:configChanges="keyboardHidden|orientation|screenSize"
+167-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:82:13-74
+168            android:exported="true"
+168-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:83:13-36
+169            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- 选择视频 -->
+169-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:84:13-72
+170        <activity android:name="com.students.app.ui.activity.SmsDetailsActivity" />
+170-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:85:9-67
+170-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:85:19-65
+171
+172        <meta-data
+172-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:86:9-88:36
+173            android:name="ScopedStorage"
+173-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:87:13-41
+174            android:value="true" /> <!-- 微信回调（请注意这个 Activity 放置的包名要和当前项目的包名保持一致，否则将不能正常回调） -->
+174-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:88:13-33
+175        <provider
+176            android:name="androidx.core.content.FileProvider"
+176-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:90:13-62
+177            android:authorities="com.dwbs.app.debug.provider"
+177-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:91:13-60
+178            android:exported="false"
+178-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:92:13-37
+179            android:grantUriPermissions="true" >
+179-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:93:13-47
+180            <meta-data
+180-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:94:13-96:54
+181                android:name="android.support.FILE_PROVIDER_PATHS"
+181-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:95:17-67
+182                android:resource="@xml/file_paths" />
+182-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:96:17-51
+183        </provider>
+184
+185        <service
+185-->[com.squareup.leakcanary:leakcanary-android:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4e968efa94381bf0c699d4b0878d09da\jetified-leakcanary-android-2.7\AndroidManifest.xml:23:9-25:40
+186            android:name="leakcanary.internal.HeapAnalyzerService"
+186-->[com.squareup.leakcanary:leakcanary-android:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4e968efa94381bf0c699d4b0878d09da\jetified-leakcanary-android-2.7\AndroidManifest.xml:24:13-67
+187            android:exported="false" /> <!-- 友盟 Key（请在 Gradle 中配置，请不要在此处修改） -->
+187-->[com.squareup.leakcanary:leakcanary-android:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4e968efa94381bf0c699d4b0878d09da\jetified-leakcanary-android-2.7\AndroidManifest.xml:25:13-37
+188        <meta-data
+188-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:36:9-38:32
+189            android:name="UM_KEY"
+189-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-34
+190            android:value="" /> <!-- QQ AppId（请在 Gradle 中配置，请不要在此处修改） -->
+190-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-29
+191        <meta-data
+191-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:41:9-43:32
+192            android:name="QQ_ID"
+192-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-33
+193            android:value="" /> <!-- QQ Secret（请在 Gradle 中配置，请不要在此处修改） -->
+193-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-29
+194        <meta-data
+194-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:45:9-47:32
+195            android:name="QQ_SECRET"
+195-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-37
+196            android:value="" /> <!-- 微信 AppId（请在 Gradle 中配置，请不要在此处修改） -->
+196-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:47:13-29
+197        <meta-data
+197-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:50:9-52:32
+198            android:name="WX_ID"
+198-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:51:13-33
+199            android:value="" /> <!-- 微信 Secret（请在 Gradle 中配置，请不要在此处修改） -->
+199-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:52:13-29
+200        <meta-data
+200-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:54:9-56:32
+201            android:name="WX_SECRET"
+201-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:55:13-37
+202            android:value="" /> <!-- 友盟社会化 -->
+202-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:56:13-29
+203        <!-- QQ 回调 -->
+204        <activity
+204-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:62:9-75:20
+205            android:name="com.tencent.tauth.AuthActivity"
+205-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:63:13-58
+206            android:launchMode="singleTask"
+206-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:64:13-44
+207            android:noHistory="true" >
+207-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:65:13-37
+208            <intent-filter>
+208-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:67:13-74:29
+209                <action android:name="android.intent.action.VIEW" />
+209-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:128:13-65
+209-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:128:21-62
+210
+211                <category android:name="android.intent.category.DEFAULT" />
+211-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:70:17-76
+211-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:70:27-73
+212                <category android:name="android.intent.category.BROWSABLE" />
+212-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:71:17-78
+212-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:71:27-75
+213
+214                <data android:scheme="tencent" />
+214-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:73:17-50
+214-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:73:23-47
+215            </intent-filter>
+216        </activity>
+217        <activity
+217-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:76:9-80:36
+218            android:name="com.tencent.connect.common.AssistActivity"
+218-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:77:13-69
+219            android:configChanges="orientation|keyboardHidden"
+219-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:78:13-63
+220            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+220-->[:library:umeng] E:\TelephoneManager\Frame\build\library\umeng\intermediates\library_manifest\debug\AndroidManifest.xml:79:13-72
+221
+222        <provider
+222-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:25:9-33:20
+223            android:name="com.luck.picture.lib.PictureFileProvider"
+223-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:26:13-68
+224            android:authorities="com.dwbs.app.debug.provider"
+224-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:27:13-60
+225            android:exported="false"
+225-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:28:13-37
+226            android:grantUriPermissions="true" >
+226-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:29:13-47
+227            <meta-data
+227-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:94:13-96:54
+228                android:name="android.support.FILE_PROVIDER_PATHS"
+228-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:95:17-67
+229                android:resource="@xml/file_paths" />
+229-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:96:17-51
+230        </provider>
+231
+232        <activity
+232-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:35:9-37:77
+233            android:name="com.luck.picture.lib.PictureSelectorActivity"
+233-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:36:13-72
+234            android:configChanges="orientation|keyboardHidden|screenSize" />
+234-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:37:13-74
+235        <activity
+235-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:38:9-40:77
+236            android:name="com.luck.picture.lib.PictureSelectorWeChatStyleActivity"
+236-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:39:13-83
+237            android:configChanges="orientation|keyboardHidden|screenSize" />
+237-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:40:13-74
+238        <activity
+238-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:41:9-44:64
+239            android:name="com.luck.picture.lib.PictureSelectorCameraEmptyActivity"
+239-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:42:13-83
+240            android:configChanges="orientation|keyboardHidden|screenSize"
+240-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:43:13-74
+241            android:theme="@style/Picture.Theme.Translucent" />
+241-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:44:13-61
+242        <activity
+242-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:45:9-47:77
+243            android:name="com.luck.picture.lib.PictureCustomCameraActivity"
+243-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:46:13-76
+244            android:configChanges="orientation|keyboardHidden|screenSize" />
+244-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:47:13-74
+245        <activity
+245-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:48:9-50:77
+246            android:name="com.luck.picture.lib.PicturePreviewActivity"
+246-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:49:13-71
+247            android:configChanges="orientation|keyboardHidden|screenSize" />
+247-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:50:13-74
+248        <activity
+248-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:51:9-53:77
+249            android:name="com.luck.picture.lib.PictureSelectorPreviewWeChatStyleActivity"
+249-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:52:13-90
+250            android:configChanges="orientation|keyboardHidden|screenSize" />
+250-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:53:13-74
+251        <activity
+251-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:54:9-57:50
+252            android:name="com.luck.picture.lib.PictureVideoPlayActivity"
+252-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:55:13-73
+253            android:configChanges="orientation|keyboardHidden|screenSize"
+253-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:56:13-74
+254            android:screenOrientation="sensor" />
+254-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:57:13-47
+255        <activity
+255-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:58:9-60:77
+256            android:name="com.luck.picture.lib.PictureExternalPreviewActivity"
+256-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:59:13-79
+257            android:configChanges="orientation|keyboardHidden|screenSize" />
+257-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:60:13-74
+258        <activity
+258-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:61:9-63:77
+259            android:name="com.luck.picture.lib.PicturePlayAudioActivity"
+259-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:62:13-73
+260            android:configChanges="orientation|keyboardHidden|screenSize" />
+260-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:63:13-74
+261        <activity
+261-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:64:9-66:61
+262            android:name="com.yalantis.ucrop.UCropActivity"
+262-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:65:13-60
+263            android:theme="@style/Base.Theme.NoActionBar" />
+263-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:66:13-58
+264        <activity
+264-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:67:9-69:61
+265            android:name="com.yalantis.ucrop.PictureMultiCuttingActivity"
+265-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:68:13-74
+266            android:theme="@style/Base.Theme.NoActionBar" />
+266-->[com.github.LuckSiege.PictureSelector:picture_library:v2.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d4863fdc589a3b43889a94d5f659bf51\jetified-picture_library-v2.6.0\AndroidManifest.xml:69:13-58
+267        <activity
+267-->[com.blankj:utilcodex:1.30.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2be558487594920d28ec18ec1b4fef8e\jetified-utilcodex-1.30.6\AndroidManifest.xml:10:9-14:75
+268            android:name="com.blankj.utilcode.util.UtilsTransActivity4MainProcess"
+268-->[com.blankj:utilcodex:1.30.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2be558487594920d28ec18ec1b4fef8e\jetified-utilcodex-1.30.6\AndroidManifest.xml:11:13-83
+269            android:configChanges="orientation|keyboardHidden|screenSize"
+269-->[com.blankj:utilcodex:1.30.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2be558487594920d28ec18ec1b4fef8e\jetified-utilcodex-1.30.6\AndroidManifest.xml:12:13-74
+270            android:theme="@style/ActivityTranslucent"
+270-->[com.blankj:utilcodex:1.30.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2be558487594920d28ec18ec1b4fef8e\jetified-utilcodex-1.30.6\AndroidManifest.xml:13:13-55
+271            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+271-->[com.blankj:utilcodex:1.30.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2be558487594920d28ec18ec1b4fef8e\jetified-utilcodex-1.30.6\AndroidManifest.xml:14:13-72
+272        <activity
+272-->[com.blankj:utilcodex:1.30.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2be558487594920d28ec18ec1b4fef8e\jetified-utilcodex-1.30.6\AndroidManifest.xml:15:9-20:75
+273            android:name="com.blankj.utilcode.util.UtilsTransActivity"
+273-->[com.blankj:utilcodex:1.30.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2be558487594920d28ec18ec1b4fef8e\jetified-utilcodex-1.30.6\AndroidManifest.xml:16:13-71
+274            android:configChanges="orientation|keyboardHidden|screenSize"
+274-->[com.blankj:utilcodex:1.30.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2be558487594920d28ec18ec1b4fef8e\jetified-utilcodex-1.30.6\AndroidManifest.xml:17:13-74
+275            android:multiprocess="true"
+275-->[com.blankj:utilcodex:1.30.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2be558487594920d28ec18ec1b4fef8e\jetified-utilcodex-1.30.6\AndroidManifest.xml:18:13-40
+276            android:theme="@style/ActivityTranslucent"
+276-->[com.blankj:utilcodex:1.30.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2be558487594920d28ec18ec1b4fef8e\jetified-utilcodex-1.30.6\AndroidManifest.xml:19:13-55
+277            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+277-->[com.blankj:utilcodex:1.30.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2be558487594920d28ec18ec1b4fef8e\jetified-utilcodex-1.30.6\AndroidManifest.xml:20:13-72
+278
+279        <provider
+279-->[com.blankj:utilcodex:1.30.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2be558487594920d28ec18ec1b4fef8e\jetified-utilcodex-1.30.6\AndroidManifest.xml:22:9-30:20
+280            android:name="com.blankj.utilcode.util.UtilsFileProvider"
+280-->[com.blankj:utilcodex:1.30.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2be558487594920d28ec18ec1b4fef8e\jetified-utilcodex-1.30.6\AndroidManifest.xml:23:13-70
+281            android:authorities="com.dwbs.app.debug.utilcode.fileprovider"
+281-->[com.blankj:utilcodex:1.30.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2be558487594920d28ec18ec1b4fef8e\jetified-utilcodex-1.30.6\AndroidManifest.xml:24:13-73
+282            android:exported="false"
+282-->[com.blankj:utilcodex:1.30.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2be558487594920d28ec18ec1b4fef8e\jetified-utilcodex-1.30.6\AndroidManifest.xml:25:13-37
+283            android:grantUriPermissions="true" >
+283-->[com.blankj:utilcodex:1.30.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2be558487594920d28ec18ec1b4fef8e\jetified-utilcodex-1.30.6\AndroidManifest.xml:26:13-47
+284            <meta-data
+284-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:94:13-96:54
+285                android:name="android.support.FILE_PROVIDER_PATHS"
+285-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:95:17-67
+286                android:resource="@xml/util_code_provider_paths" />
+286-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:96:17-51
+287        </provider>
+288
+289        <service
+289-->[com.blankj:utilcodex:1.30.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2be558487594920d28ec18ec1b4fef8e\jetified-utilcodex-1.30.6\AndroidManifest.xml:32:9-38:19
+290            android:name="com.blankj.utilcode.util.MessengerUtils$ServerService"
+290-->[com.blankj:utilcodex:1.30.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2be558487594920d28ec18ec1b4fef8e\jetified-utilcodex-1.30.6\AndroidManifest.xml:33:13-81
+291            android:exported="false" >
+291-->[com.blankj:utilcodex:1.30.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2be558487594920d28ec18ec1b4fef8e\jetified-utilcodex-1.30.6\AndroidManifest.xml:34:13-37
+292            <intent-filter>
+292-->[com.blankj:utilcodex:1.30.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2be558487594920d28ec18ec1b4fef8e\jetified-utilcodex-1.30.6\AndroidManifest.xml:35:13-37:29
+293                <action android:name="com.dwbs.app.debug.messenger" />
+293-->[com.blankj:utilcodex:1.30.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2be558487594920d28ec18ec1b4fef8e\jetified-utilcodex-1.30.6\AndroidManifest.xml:36:17-69
+293-->[com.blankj:utilcodex:1.30.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2be558487594920d28ec18ec1b4fef8e\jetified-utilcodex-1.30.6\AndroidManifest.xml:36:25-66
+294            </intent-filter>
+295        </service>
+296
+297        <provider
+297-->[com.github.princekin-f:EasyFloat:2.0.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9a4115fb95dd7ef9190321435f36cde2\jetified-EasyFloat-2.0.4\AndroidManifest.xml:12:9-16:43
+298            android:name="com.lzf.easyfloat.EasyFloatInitializer"
+298-->[com.github.princekin-f:EasyFloat:2.0.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9a4115fb95dd7ef9190321435f36cde2\jetified-EasyFloat-2.0.4\AndroidManifest.xml:13:13-66
+299            android:authorities="com.dwbs.app.debug.EasyFloatInitializer"
+299-->[com.github.princekin-f:EasyFloat:2.0.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9a4115fb95dd7ef9190321435f36cde2\jetified-EasyFloat-2.0.4\AndroidManifest.xml:14:13-72
+300            android:exported="false"
+300-->[com.github.princekin-f:EasyFloat:2.0.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9a4115fb95dd7ef9190321435f36cde2\jetified-EasyFloat-2.0.4\AndroidManifest.xml:15:13-37
+301            android:multiprocess="true" />
+301-->[com.github.princekin-f:EasyFloat:2.0.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9a4115fb95dd7ef9190321435f36cde2\jetified-EasyFloat-2.0.4\AndroidManifest.xml:16:13-40
+302        <provider
+302-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:29:9-37:20
+303            android:name="leakcanary.internal.LeakCanaryFileProvider"
+303-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:30:13-70
+304            android:authorities="com.squareup.leakcanary.fileprovider.com.dwbs.app.debug"
+304-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:31:13-88
+305            android:exported="false"
+305-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:32:13-37
+306            android:grantUriPermissions="true" >
+306-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:33:13-47
+307            <meta-data
+307-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:94:13-96:54
+308                android:name="android.support.FILE_PROVIDER_PATHS"
+308-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:95:17-67
+309                android:resource="@xml/leak_canary_file_paths" />
+309-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:96:17-51
+310        </provider>
+311
+312        <activity
+312-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:39:9-44:66
+313            android:name="leakcanary.internal.activity.LeakActivity"
+313-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:40:13-69
+314            android:icon="@mipmap/leak_canary_icon"
+314-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:41:13-52
+315            android:label="@string/leak_canary_display_activity_label"
+315-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:42:13-71
+316            android:taskAffinity="com.squareup.leakcanary.com.dwbs.app.debug"
+316-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:43:13-76
+317            android:theme="@style/leak_canary_LeakCanary.Base" />
+317-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:44:13-63
+318
+319        <activity-alias
+319-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:46:9-63:26
+320            android:name="leakcanary.internal.activity.LeakLauncherActivity"
+320-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:47:13-77
+321            android:banner="@drawable/leak_canary_tv_icon"
+321-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:48:13-59
+322            android:enabled="@bool/leak_canary_add_launcher_icon"
+322-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:49:13-66
+323            android:exported="true"
+323-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:50:13-36
+324            android:icon="@mipmap/leak_canary_icon"
+324-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:51:13-52
+325            android:label="@string/leak_canary_display_activity_label"
+325-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:52:13-71
+326            android:targetActivity="leakcanary.internal.activity.LeakActivity"
+326-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:53:13-79
+327            android:taskAffinity="com.squareup.leakcanary.com.dwbs.app.debug"
+327-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:54:13-76
+328            android:theme="@style/leak_canary_LeakCanary.Base" >
+328-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:55:13-63
+329            <intent-filter>
+329-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:56:13-62:29
+330                <action android:name="android.intent.action.MAIN" />
+330-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:33:17-69
+330-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:33:25-66
+331
+332                <category android:name="android.intent.category.LAUNCHER" />
+332-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:36:17-77
+332-->E:\TelephoneManager\Frame\app\src\main\AndroidManifest.xml:36:27-74
+333                <!-- Android TV launcher intent -->
+334                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+334-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:61:17-86
+334-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:61:27-83
+335            </intent-filter>
+336        </activity-alias>
+337
+338        <activity
+338-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:65:9-71:68
+339            android:name="leakcanary.internal.RequestStoragePermissionActivity"
+339-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:66:13-80
+340            android:excludeFromRecents="true"
+340-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:67:13-46
+341            android:icon="@mipmap/leak_canary_icon"
+341-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:68:13-52
+342            android:label="@string/leak_canary_storage_permission_activity_label"
+342-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:69:13-82
+343            android:taskAffinity="com.squareup.leakcanary.com.dwbs.app.debug"
+343-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:70:13-76
+344            android:theme="@style/leak_canary_Theme.Transparent" />
+344-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:71:13-65
+345
+346        <receiver android:name="leakcanary.internal.NotificationReceiver" />
+346-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:73:9-77
+346-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\211067c2645a010a442bee614db37349\jetified-leakcanary-android-core-2.7\AndroidManifest.xml:73:19-74
+347
+348        <provider
+348-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bfc2c7ca61394a699b5a7fe3c005482e\jetified-leakcanary-object-watcher-android-2.7\AndroidManifest.xml:8:9-12:40
+349            android:name="leakcanary.internal.AppWatcherInstaller$MainProcess"
+349-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bfc2c7ca61394a699b5a7fe3c005482e\jetified-leakcanary-object-watcher-android-2.7\AndroidManifest.xml:9:13-79
+350            android:authorities="com.dwbs.app.debug.leakcanary-installer"
+350-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bfc2c7ca61394a699b5a7fe3c005482e\jetified-leakcanary-object-watcher-android-2.7\AndroidManifest.xml:10:13-72
+351            android:enabled="@bool/leak_canary_watcher_auto_install"
+351-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bfc2c7ca61394a699b5a7fe3c005482e\jetified-leakcanary-object-watcher-android-2.7\AndroidManifest.xml:11:13-69
+352            android:exported="false" />
+352-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bfc2c7ca61394a699b5a7fe3c005482e\jetified-leakcanary-object-watcher-android-2.7\AndroidManifest.xml:12:13-37
+353        <provider
+353-->[com.squareup.leakcanary:plumber-android:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\88600037fea94161ce8a820935bffed6\jetified-plumber-android-2.7\AndroidManifest.xml:8:9-12:40
+354            android:name="leakcanary.internal.PlumberInstaller"
+354-->[com.squareup.leakcanary:plumber-android:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\88600037fea94161ce8a820935bffed6\jetified-plumber-android-2.7\AndroidManifest.xml:9:13-64
+355            android:authorities="com.dwbs.app.debug.plumber-installer"
+355-->[com.squareup.leakcanary:plumber-android:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\88600037fea94161ce8a820935bffed6\jetified-plumber-android-2.7\AndroidManifest.xml:10:13-69
+356            android:enabled="@bool/leak_canary_plumber_auto_install"
+356-->[com.squareup.leakcanary:plumber-android:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\88600037fea94161ce8a820935bffed6\jetified-plumber-android-2.7\AndroidManifest.xml:11:13-69
+357            android:exported="false" />
+357-->[com.squareup.leakcanary:plumber-android:2.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\88600037fea94161ce8a820935bffed6\jetified-plumber-android-2.7\AndroidManifest.xml:12:13-37
+358        <provider
+358-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fcbf69f7268110c3334f9afd8859f72f\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+359            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+359-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fcbf69f7268110c3334f9afd8859f72f\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+360            android:authorities="com.dwbs.app.debug.lifecycle-process"
+360-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fcbf69f7268110c3334f9afd8859f72f\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+361            android:exported="false"
+361-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fcbf69f7268110c3334f9afd8859f72f\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+362            android:multiprocess="true" />
+362-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fcbf69f7268110c3334f9afd8859f72f\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+363
+364        <activity
+364-->[com.umeng.umsdk:share-wx:7.1.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9e64adc34e73ad681d0f0da377fa2b64\jetified-share-wx-7.1.5\AndroidManifest.xml:12:9-16:75
+365            android:name="com.dwbs.app.debug.wxapi.WXEntryActivity"
+365-->[com.umeng.umsdk:share-wx:7.1.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9e64adc34e73ad681d0f0da377fa2b64\jetified-share-wx-7.1.5\AndroidManifest.xml:13:13-66
+366            android:configChanges="keyboardHidden|orientation|screenSize"
+366-->[com.umeng.umsdk:share-wx:7.1.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9e64adc34e73ad681d0f0da377fa2b64\jetified-share-wx-7.1.5\AndroidManifest.xml:14:13-74
+367            android:exported="true"
+367-->[com.umeng.umsdk:share-wx:7.1.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9e64adc34e73ad681d0f0da377fa2b64\jetified-share-wx-7.1.5\AndroidManifest.xml:15:13-36
+368            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+368-->[com.umeng.umsdk:share-wx:7.1.5] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9e64adc34e73ad681d0f0da377fa2b64\jetified-share-wx-7.1.5\AndroidManifest.xml:16:13-72
+369    </application>
+370
+371</manifest>

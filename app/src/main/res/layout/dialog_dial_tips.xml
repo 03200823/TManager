@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/dp_260"
+    android:layout_height="@dimen/dp_60"
+    android:layout_gravity="center"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="@dimen/dp_5"
+    app:cardElevation="0px"
+    tools:context="com.students.app.ui.dialog.UpdateDialog">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+       <androidx.appcompat.widget.AppCompatTextView
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:gravity="center_vertical"
+           android:padding="@dimen/dp_10"
+           android:lineSpacingExtra="@dimen/dp_4"
+           android:textColor="#333333"
+           android:textSize="@dimen/sp_14"
+           android:id="@+id/message"
+           android:text="内容"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hangUp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_hang_up"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

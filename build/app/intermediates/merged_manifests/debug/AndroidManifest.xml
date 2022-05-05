@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dwbs.app.debug"
+    android:versionCode="10"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="30" />
+
+    <queries package="com.dwbs.app.debug" >
+
+        <!-- 拍照意图：MediaStore.ACTION_IMAGE_CAPTURE -->
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" />
+        </intent>
+
+        <!-- 拍摄意图：MediaStore.ACTION_VIDEO_CAPTURE -->
+        <intent>
+            <action android:name="android.media.action.VIDEO_CAPTURE" />
+        </intent>
+
+        <!-- 图片裁剪意图 -->
+        <intent>
+            <action android:name="com.android.camera.action.CROP" />
+        </intent>
+
+        <!-- 打电话意图：Intent.ACTION_DIAL -->
+        <intent>
+            <action android:name="android.intent.action.DIAL" />
+        </intent>
+
+        <!-- 调起分享意图：Intent.ACTION_SEND -->
+        <intent>
+            <action android:name="android.intent.action.SEND" />
+        </intent>
+
+        <!-- 调起其他页面意图：Intent.ACTION_VIEW -->
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+        </intent>
+
+        <!-- 调起系统文件选择器：Intent.ACTION_GET_CONTENT -->
+        <intent>
+            <action android:name="android.intent.action.GET_CONTENT" />
+        </intent>
+        <!-- 手机 QQ 的包名 -->
+        <package android:name="com.tencent.mobileqq" /> <!-- 微信的包名 -->
+        <package android:name="com.tencent.mm" />
+
+        <intent>
+            <action android:name="android.media.action.ACTION_VIDEO_CAPTURE" />
+        </intent>
+    </queries>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 外部存储 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 拍照权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- 安装权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 定位权限（用于 WebView 定位） -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /> <!-- Android 11 软件包可见性适配：https://www.jianshu.com/p/d1ccd425c4ce -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- 写联系人权限 -->
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <!-- 拨号权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- 读短信权限 -->
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- 写联系人权限 -->
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <!-- 拨号权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- 读短信权限 -->
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <!-- 友盟统计 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- To allow starting foreground services on Android P+ - https://developer.android.com/preview/behavior-changes#fg-svc -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" /> <!-- 网络相关 -->
+    <application
+        android:name="com.students.app.app.AppApplication"
+        android:allowBackup="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/call_logo"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:resizeableActivity="true"
+        android:roundIcon="@mipmap/call_logo"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.students.app.ui.activity.MainActivity"
+            android:exported="false" />
+        <!-- 表示当前已经适配了分区存储 -->
+        <activity
+            android:name="com.students.app.ui.activity.SplashActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme" >
+
+            <!-- 程序入口 -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- 适配 Android 7.0 文件意图 -->
+        <activity
+            android:name="com.students.app.ui.activity.HomeActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" /> <!-- 闪屏页 -->
+        <activity
+            android:name="com.students.app.ui.activity.CrashActivity"
+            android:launchMode="singleTop"
+            android:process=":crash"
+            android:screenOrientation="landscape" /> <!-- 首页 -->
+        <activity
+            android:name="com.students.app.ui.activity.RestartActivity"
+            android:launchMode="singleTop"
+            android:process=":restart" /> <!-- 崩溃展示（必须在独立进程） -->
+        <activity
+            android:name="com.students.app.ui.activity.BrowserActivity"
+            android:label="@string/网页加载中"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" /> <!-- 重启应用（必须在独立进程） -->
+        <activity
+            android:name="com.students.app.ui.activity.VideoPlayActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/FullScreenTheme" /> <!-- 忘记密码 -->
+        <!-- 重置密码 -->
+        <!-- 更换手机 -->
+        <!-- 网页浏览 -->
+        <activity android:name="com.students.app.ui.activity.ContactDetailsActivity" />
+        <activity
+            android:name="com.students.app.ui.activity.VideoPlayActivity$Portrait"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreenTheme" /> <!-- 播放视频（自适应方向） -->
+        <activity
+            android:name="com.students.app.ui.activity.VideoPlayActivity$Landscape"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullScreenTheme" /> <!-- 播放视频（竖屏方向） -->
+        <activity
+            android:name="com.students.app.ui.activity.VideoSelectActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" /> <!-- 播放视频（横屏方向） -->
+        <activity
+            android:name="com.students.app.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- 选择视频 -->
+        <activity android:name="com.students.app.ui.activity.SmsDetailsActivity" />
+
+        <meta-data
+            android:name="ScopedStorage"
+            android:value="true" /> <!-- 微信回调（请注意这个 Activity 放置的包名要和当前项目的包名保持一致，否则将不能正常回调） -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.dwbs.app.debug.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <service
+            android:name="leakcanary.internal.HeapAnalyzerService"
+            android:exported="false" /> <!-- 友盟 Key（请在 Gradle 中配置，请不要在此处修改） -->
+        <meta-data
+            android:name="UM_KEY"
+            android:value="" /> <!-- QQ AppId（请在 Gradle 中配置，请不要在此处修改） -->
+        <meta-data
+            android:name="QQ_ID"
+            android:value="" /> <!-- QQ Secret（请在 Gradle 中配置，请不要在此处修改） -->
+        <meta-data
+            android:name="QQ_SECRET"
+            android:value="" /> <!-- 微信 AppId（请在 Gradle 中配置，请不要在此处修改） -->
+        <meta-data
+            android:name="WX_ID"
+            android:value="" /> <!-- 微信 Secret（请在 Gradle 中配置，请不要在此处修改） -->
+        <meta-data
+            android:name="WX_SECRET"
+            android:value="" /> <!-- 友盟社会化 -->
+        <!-- QQ 回调 -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.luck.picture.lib.PictureFileProvider"
+            android:authorities="com.dwbs.app.debug.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name="com.luck.picture.lib.PictureSelectorActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.luck.picture.lib.PictureSelectorWeChatStyleActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.luck.picture.lib.PictureSelectorCameraEmptyActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Picture.Theme.Translucent" />
+        <activity
+            android:name="com.luck.picture.lib.PictureCustomCameraActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.luck.picture.lib.PicturePreviewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.luck.picture.lib.PictureSelectorPreviewWeChatStyleActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.luck.picture.lib.PictureVideoPlayActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.luck.picture.lib.PictureExternalPreviewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.luck.picture.lib.PicturePlayAudioActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:theme="@style/Base.Theme.NoActionBar" />
+        <activity
+            android:name="com.yalantis.ucrop.PictureMultiCuttingActivity"
+            android:theme="@style/Base.Theme.NoActionBar" />
+        <activity
+            android:name="com.blankj.utilcode.util.UtilsTransActivity4MainProcess"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/ActivityTranslucent"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+        <activity
+            android:name="com.blankj.utilcode.util.UtilsTransActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:multiprocess="true"
+            android:theme="@style/ActivityTranslucent"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+
+        <provider
+            android:name="com.blankj.utilcode.util.UtilsFileProvider"
+            android:authorities="com.dwbs.app.debug.utilcode.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/util_code_provider_paths" />
+        </provider>
+
+        <service
+            android:name="com.blankj.utilcode.util.MessengerUtils$ServerService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.dwbs.app.debug.messenger" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.lzf.easyfloat.EasyFloatInitializer"
+            android:authorities="com.dwbs.app.debug.EasyFloatInitializer"
+            android:exported="false"
+            android:multiprocess="true" />
+        <provider
+            android:name="leakcanary.internal.LeakCanaryFileProvider"
+            android:authorities="com.squareup.leakcanary.fileprovider.com.dwbs.app.debug"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/leak_canary_file_paths" />
+        </provider>
+
+        <activity
+            android:name="leakcanary.internal.activity.LeakActivity"
+            android:icon="@mipmap/leak_canary_icon"
+            android:label="@string/leak_canary_display_activity_label"
+            android:taskAffinity="com.squareup.leakcanary.com.dwbs.app.debug"
+            android:theme="@style/leak_canary_LeakCanary.Base" />
+
+        <activity-alias
+            android:name="leakcanary.internal.activity.LeakLauncherActivity"
+            android:banner="@drawable/leak_canary_tv_icon"
+            android:enabled="@bool/leak_canary_add_launcher_icon"
+            android:exported="true"
+            android:icon="@mipmap/leak_canary_icon"
+            android:label="@string/leak_canary_display_activity_label"
+            android:targetActivity="leakcanary.internal.activity.LeakActivity"
+            android:taskAffinity="com.squareup.leakcanary.com.dwbs.app.debug"
+            android:theme="@style/leak_canary_LeakCanary.Base" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <!-- Android TV launcher intent -->
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity
+            android:name="leakcanary.internal.RequestStoragePermissionActivity"
+            android:excludeFromRecents="true"
+            android:icon="@mipmap/leak_canary_icon"
+            android:label="@string/leak_canary_storage_permission_activity_label"
+            android:taskAffinity="com.squareup.leakcanary.com.dwbs.app.debug"
+            android:theme="@style/leak_canary_Theme.Transparent" />
+
+        <receiver android:name="leakcanary.internal.NotificationReceiver" />
+
+        <provider
+            android:name="leakcanary.internal.AppWatcherInstaller$MainProcess"
+            android:authorities="com.dwbs.app.debug.leakcanary-installer"
+            android:enabled="@bool/leak_canary_watcher_auto_install"
+            android:exported="false" />
+        <provider
+            android:name="leakcanary.internal.PlumberInstaller"
+            android:authorities="com.dwbs.app.debug.plumber-installer"
+            android:enabled="@bool/leak_canary_plumber_auto_install"
+            android:exported="false" />
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.dwbs.app.debug.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+
+        <activity
+            android:name="com.dwbs.app.debug.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    </application>
+
+</manifest>

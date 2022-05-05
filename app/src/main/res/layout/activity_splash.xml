@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_flash_logo"
+    android:orientation="vertical"
+    tools:context="com.students.app.ui.activity.SplashActivity">
+
+
+
+    <com.hjq.shape.view.ShapeTextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/dp_30"
+        android:layout_marginEnd="@dimen/dp_30"
+        android:paddingHorizontal="@dimen/dp_10"
+        android:paddingVertical="@dimen/dp_5"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_14"
+        app:shape_radius="@dimen/dp_5"
+        app:shape_solidColor="@color/black50"
+        tools:text="跳过3" />
+
+
+</com.google.android.material.circularreveal.CircularRevealRelativeLayout>

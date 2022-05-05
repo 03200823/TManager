@@ -1,0 +1,59 @@
+com/students/widget/view/PressAlphaTextView.java
+ com.students.widget.view.PressAlphaTextView
+com/students/widget/layout/NestedViewPager.java
+ com.students.widget.layout.NestedViewPager
+com/students/widget/layout/SettingBar.java
+ com.students.widget.layout.SettingBar
+com/students/widget/view/ScaleImageView.java
+ com.students.widget.view.ScaleImageView
+com/students/widget/layout/NoScrollViewPager.java
+ com.students.widget.layout.NoScrollViewPager
+com/students/widget/view/DrawableTextView.java
+ com.students.widget.view.DrawableTextView
+com/students/widget/view/PasswordEditText.java
+ com.students.widget.view.PasswordEditText
+com/students/widget/view/SlantedTextView.java
+ com.students.widget.view.SlantedTextView
+com/students/widget/view/ClearEditText.java
+ com.students.widget.view.ClearEditText
+com/students/widget/layout/WrapRecyclerView.java
+ com.students.widget.layout.WrapRecyclerView
+ com.students.widget.layout.WrapRecyclerView$1
+ com.students.widget.layout.WrapRecyclerView$WrapAdapterDataObserver
+ com.students.widget.layout.WrapRecyclerView$WrapRecyclerAdapter
+ com.students.widget.layout.WrapRecyclerView$WrapViewHolder
+com/students/widget/view/SimpleRatingBar.java
+ com.students.widget.view.SimpleRatingBar
+ com.students.widget.view.SimpleRatingBar$GradleStep
+ com.students.widget.view.SimpleRatingBar$OnRatingChangeListener
+com/students/widget/layout/RatioFrameLayout.java
+ com.students.widget.layout.RatioFrameLayout
+com/students/widget/view/SwitchButton.java
+ com.students.widget.view.SwitchButton
+ com.students.widget.view.SwitchButton$1
+ com.students.widget.view.SwitchButton$OnCheckedChangeListener
+ com.students.widget.view.SwitchButton$SavedState
+ com.students.widget.view.SwitchButton$SavedState$1
+com/students/widget/layout/NestedScrollWebView.java
+ com.students.widget.layout.NestedScrollWebView
+com/students/widget/view/FloatActionButton.java
+ com.students.widget.view.FloatActionButton
+com/students/widget/layout/CustomViewStub.java
+ com.students.widget.layout.CustomViewStub
+ com.students.widget.layout.CustomViewStub$OnViewStubListener
+com/students/widget/view/CountdownView.java
+ com.students.widget.view.CountdownView
+com/students/widget/layout/SimpleLayout.java
+ com.students.widget.layout.SimpleLayout
+com/students/widget/view/SmartTextView.java
+ com.students.widget.view.SmartTextView
+com/students/widget/layout/NestedLinearLayout.java
+ com.students.widget.layout.NestedLinearLayout
+com/students/widget/view/SubmitButton.java
+ com.students.widget.view.SubmitButton
+ com.students.widget.view.SubmitButton$1
+ com.students.widget.view.SubmitButton$2
+com/students/widget/view/RegexEditText.java
+ com.students.widget.view.RegexEditText
+com/students/widget/view/PlayButton.java
+ com.students.widget.view.PlayButton

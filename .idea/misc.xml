@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_incoming.xml" value="0.156" />
+        <entry key="app/src/main/res/drawable/ic_un_answer.xml" value="0.156" />
+        <entry key="app/src/main/res/drawable/shape_ff_r10_bg.xml" value="0.1055" />
+        <entry key="app/src/main/res/drawable/shape_ff_top_r10_bg.xml" value="0.1055" />
+        <entry key="app/src/main/res/drawable/transparent_selector.xml" value="0.1525" />
+        <entry key="app/src/main/res/layout/activity_browser.xml" value="0.3640625" />
+        <entry key="app/src/main/res/layout/activity_contact_details.xml" value="0.21927083333333333" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.3640625" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.3640625" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3640625" />
+        <entry key="app/src/main/res/layout/activity_sms_details.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.3640625" />
+        <entry key="app/src/main/res/layout/contact_fragment.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/contactt_fragment.xml" value="0.18020833333333333" />
+        <entry key="app/src/main/res/layout/dialog_dial.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/dialog_dial_tips.xml" value="0.2703125" />
+        <entry key="app/src/main/res/layout/dialog_menu.xml" value="0.13385416666666666" />
+        <entry key="app/src/main/res/layout/dialog_message.xml" value="0.1421875" />
+        <entry key="app/src/main/res/layout/dialog_message_confirm.xml" value="0.1421875" />
+        <entry key="app/src/main/res/layout/dialog_tips.xml" value="0.1421875" />
+        <entry key="app/src/main/res/layout/find_fragment.xml" value="0.18020833333333333" />
+        <entry key="app/src/main/res/layout/home_fragment.xml" value="0.3640625" />
+        <entry key="app/src/main/res/layout/item_contact.xml" value="0.3640625" />
+        <entry key="app/src/main/res/layout/item_menu.xml" value="0.14270833333333333" />
+        <entry key="app/src/main/res/layout/item_number.xml" value="0.14270833333333333" />
+        <entry key="app/src/main/res/layout/item_reccord_call.xml" value="0.146875" />
+        <entry key="app/src/main/res/layout/message_fragment.xml" value="0.3640625" />
+        <entry key="app/src/main/res/layout/popup_copy.xml" value="0.13385416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15_PREVIEW" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
